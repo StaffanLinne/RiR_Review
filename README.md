@@ -11,7 +11,7 @@ or run the script with Grasshopper Player
 ### Rotate Walls slightly off axis
 **10_Rev_Off Axis_Wall** - Shows walls in plan that are slightly off axis (smaller than 1 degree) from grid directions  
 **11_Ro_Wall_Off Axis** - Rotates selected walls if they are slightly off axis
-
+**20_Check_Ceiling_Room** - Check where ceiling and room outlines deviates and draws these regions on a reflected ceiling plan 
 
 # Script Documentation
 
@@ -76,6 +76,40 @@ Long walls with hosted objects might delete some of these objects. Reason unknow
 
 **Linked scripts**
 10_Rev_Off Axis_Wall can be used to reveal and select walls off axis 
+
+**Contact:** 
+Staffan Linné, staffan.linne@white.se
+
+
+
+## 20_Check_Ceiling_Room
+
+**Intent:**  
+Review borders of ceiling objects in a reflected ceiling plan
+
+**Input:**  
+An active reflected ceiling plan
+
+**Output:**  
+Red detail lines where room and ceiling deviates
+
+**Dependencies:**  
+Rhino  
+Revit  
+Rhino Inside Revit  
+
+**Instructions:**
+The script is best runned from the Revit Toolbar
+
+1. Open a reclected ceiling view  
+2. Run script  
+3. The script will create a line type and draw lines of that type
+   
+**Limitations/Known issues** 
+Falting or complicated Revit room geometry can hinder the script to work properly 
+
+**Linked scripts**
+**00_Del RiR** deletes drawn lines 
 
 **Contact:** 
 Staffan Linné, staffan.linne@white.se
