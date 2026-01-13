@@ -71,10 +71,10 @@ The script is best runned from the Revit Toolbar
 2. Run script  
 3. The script will rotate walls according to the gridline that has the most similar direction to the wall line direction  
 
-**Limitations/Known issues** 
+**Limitations/Known issues:** 
 Long walls with hosted objects might delete some of these objects. Reason unknown. Might be resolved in the future.
 
-**Linked scripts**
+**Linked scripts:**
 10_Rev_Off Axis_Wall can be used to reveal and select walls off axis 
 
 **Contact:** 
@@ -105,10 +105,10 @@ The script is best runned from the Revit Toolbar
 2. Run script  
 3. The script will create a line type and draw lines of that type
    
-**Limitations/Known issues** 
+**Limitations/Known issues:** 
 Falting or complicated Revit room geometry can hinder the script to work properly 
 
-**Linked scripts**
+**Linked scripts:**
 **00_Del RiR** deletes drawn lines 
 
 **Contact:** 
